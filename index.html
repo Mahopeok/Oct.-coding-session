@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="China Shop — source products from China with confidence. Product sourcing, wholesale procurement and consultation.">
+  <title>China Shop | Source Smarter from China</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement">🇨🇳 Source directly from China • Wholesale & retail support • Nigeria-focused delivery</div>
+
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" aria-label="China Shop home">
+        <span class="brand-mark">CS</span>
+        <span><strong>China</strong> Shop<small>Source. Verify. Ship.</small></span>
+      </a>
+      <nav class="desktop-nav" aria-label="Main navigation">
+        <a href="#shop">Shop</a>
+        <a href="#how">How It Works</a>
+        <a href="#sourcing">Custom Sourcing</a>
+        <a href="#consultation">Consultation</a>
+        <a href="#about">About</a>
+      </nav>
+      <div class="nav-actions">
+        <button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button>
+        <button class="cart-btn" id="cartBtn" aria-label="Open cart">Cart <span id="cartCount">0</span></button>
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobileNav">
+      <a href="#shop">Shop</a><a href="#how">How It Works</a><a href="#sourcing">Custom Sourcing</a>
+      <a href="#consultation">Consultation</a><a href="#about">About</a>
+    </div>
+  </header>
+
+  <main id="home">
+    <section class="hero">
+      <div class="container hero-grid">
+        <div class="hero-copy">
+          <p class="eyebrow">YOUR CHINA SOURCING PARTNER</p>
+          <h1>Find better products.<br><em>Buy with confidence.</em></h1>
+          <p class="hero-text">China Shop helps individuals and businesses source quality products from China, compare suppliers, verify products and coordinate purchases without the guesswork.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#shop">Explore Products <span>→</span></a>
+            <a class="btn btn-secondary" href="#consultation">Book a Consultation</a>
+          </div>
+          <div class="trust-row">
+            <div><strong>01</strong><span>Product sourcing</span></div>
+            <div><strong>02</strong><span>Supplier research</span></div>
+            <div><strong>03</strong><span>Purchase support</span></div>
+          </div>
+        </div>
+        <div class="hero-visual">
+          <div class="shipping-card">
+            <span class="pulse"></span> SOURCING FROM CHINA
+            <div class="route">
+              <div class="city"><b>CN</b><small>China</small></div>
+              <div class="route-line"><span>✈</span></div>
+              <div class="city"><b>NG</b><small>Nigeria</small></div>
+            </div>
+            <div class="route-meta"><span>Supplier verified</span><span>✓</span></div>
+          </div>
+          <div class="floating-price">From <strong>¥29</strong><small>sample products</small></div>
+          <div class="hero-box"><span>CHINA<br>SHOP</span><i>✓</i></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="benefits">
+      <div class="container benefit-grid">
+        <article><span>◈</span><div><b>Verified sourcing</b><p>We help you find suitable suppliers and products.</p></div></article>
+        <article><span>◇</span><div><b>Transparent pricing</b><p>See product pricing before you decide.</p></div></article>
+        <article><span>◎</span><div><b>Personal support</b><p>Get guidance from product search to purchase.</p></div></article>
+      </div>
+    </section>
+
+    <section class="section" id="shop">
+      <div class="container">
+        <div class="section-heading">
+          <div><p class="eyebrow">CURATED PRODUCTS</p><h2>Shop popular finds</h2></div>
+          <a class="text-link" href="#shop">View all products →</a>
+        </div>
+        <div class="shop-toolbar">
+          <div class="categories" id="categories"></div>
+          <div class="sort-wrap"><label for="sort">Sort</label><select id="sort"><option value="featured">Featured</option><option value="low">Price: low to high</option><option value="high">Price: high to low</option></select></div>
+        </div>
+        <div class="product-grid" id="productGrid"></div>
+      </div>
+    </section>
+
+    <section class="dark-section" id="how">
+      <div class="container how-grid">
+        <div><p class="eyebrow light">HOW CHINA SHOP WORKS</p><h2>From idea to delivery, without the confusion.</h2><p>Whether you need one item or a wholesale order, our process is designed to reduce sourcing mistakes and make China procurement easier.</p></div>
+        <div class="steps">
+          <article><b>01</b><div><h3>Tell us what you need</h3><p>Choose a product or submit a custom sourcing request.</p></div></article>
+          <article><b>02</b><div><h3>We research options</h3><p>Compare product specifications, suppliers and pricing.</p></div></article>
+          <article><b>03</b><div><h3>Confirm & purchase</h3><p>Review your quote and proceed with your order.</p></div></article>
+          <article><b>04</b><div><h3>Coordinate delivery</h3><p>Get updates while your order moves from China to you.</p></div></article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section sourcing-section" id="sourcing">
+      <div class="container sourcing-grid">
+        <div class="sourcing-panel">
+          <p class="eyebrow">CAN'T FIND IT?</p><h2>Let us source it for you.</h2>
+          <p>Send us the product, quantity and specifications. We’ll help research suitable options and return a sourcing quote.</p>
+          <ul><li>Product & supplier research</li><li>Wholesale quantity sourcing</li><li>Product specification comparison</li><li>Sample-order assistance</li><li>China-to-Nigeria procurement support</li></ul>
+        </div>
+        <form class="form-card" id="sourcingForm">
+          <h3>Custom sourcing request</h3>
+          <label>Full name<input required name="name" placeholder="Your name"></label>
+          <label>Email<input required type="email" name="email" placeholder="you@example.com"></label>
+          <label>What are you looking for?<textarea required name="request" rows="4" placeholder="Describe the product, preferred quality, quantity, target price, etc."></textarea></label>
+          <div class="two-col"><label>Quantity<input name="quantity" type="number" min="1" placeholder="e.g. 100"></label><label>Budget<input name="budget" placeholder="e.g. ₦500,000"></label></div>
+          <button class="btn btn-primary full" type="submit">Submit Sourcing Request →</button>
+          <p class="form-note">We’ll respond through the contact details you provide.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="consult-section" id="consultation">
+      <div class="container consult-grid">
+        <div class="consult-copy"><p class="eyebrow light">CHINA PROCUREMENT CONSULTATION</p><h2>Have a business idea? Let's talk.</h2><p>Book a one-on-one session for product selection, supplier strategy, China market questions, wholesale sourcing or procurement planning.</p><div class="consult-points"><span>✓ Product research strategy</span><span>✓ Supplier & marketplace guidance</span><span>✓ Wholesale planning</span><span>✓ China procurement roadmap</span></div></div>
+        <form class="booking-card" id="bookingForm">
+          <h3>Book a consultation</h3>
+          <div class="two-col"><label>Name<input required name="name" placeholder="Your name"></label><label>Email<input required type="email" name="email" placeholder="Email"></label></div>
+          <label>Consultation type<select name="type"><option>Product sourcing strategy</option><option>Supplier research</option><option>Wholesale business planning</option><option>China procurement consultation</option></select></label>
+          <div class="two-col"><label>Date<input required name="date" type="date"></label><label>Preferred time<select name="time"><option>10:00 AM</option><option>12:00 PM</option><option>2:00 PM</option><option>4:00 PM</option></select></label></div>
+          <label>What would you like help with?<textarea name="notes" rows="3" placeholder="Briefly describe your goals"></textarea></label>
+          <button class="btn btn-primary full" type="submit">Request Booking →</button>
+          <p class="form-note">Booking is confirmed after availability is checked.</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section about" id="about">
+      <div class="container about-grid">
+        <div><p class="eyebrow">WHY CHINA SHOP</p><h2>China sourcing, made more approachable.</h2></div>
+        <div><p>China Shop is designed for buyers who want access to Chinese products and suppliers but need a trusted, practical bridge between the market and their business.</p><p>Start small, compare options, validate demand and scale with better information.</p><a class="text-link" href="mailto:chinashop@gmail.com">Contact China Shop →</a></div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-grid">
+      <div><a class="brand footer-brand" href="#home"><span class="brand-mark">CS</span><span><strong>China</strong> Shop<small>Source. Verify. Ship.</small></span></a><p>Smart product sourcing and consultation from China.</p></div>
+      <div><h4>Explore</h4><a href="#shop">Products</a><a href="#sourcing">Custom Sourcing</a><a href="#consultation">Consultation</a></div>
+      <div><h4>Contact</h4><a href="tel:08105971048">08105971048</a><a href="mailto:chinashop@gmail.com">chinashop@gmail.com</a><span>Nigeria</span></div>
+    </div>
+    <div class="container footer-bottom"><span>© <span id="year"></span> China Shop. All rights reserved.</span><span>Built for modern cross-border commerce.</span></div>
+  </footer>
+
+  <div class="search-overlay" id="searchOverlay">
+    <div class="search-box"><button class="close" id="closeSearch">×</button><p class="eyebrow">SEARCH CHINA SHOP</p><input id="searchInput" placeholder="Search products..."><div id="searchResults"></div></div>
+  </div>
+
+  <aside class="cart-drawer" id="cartDrawer">
+    <div class="drawer-head"><h2>Your cart</h2><button class="close" id="closeCart">×</button></div>
+    <div id="cartItems" class="cart-items"></div>
+    <div class="cart-summary"><div><span>Subtotal</span><strong id="cartTotal">₦0</strong></div><small>Shipping and final sourcing costs are confirmed before payment.</small><button class="btn btn-primary full" id="checkoutBtn">Proceed to Checkout</button></div>
+  </aside>
+  <div class="backdrop" id="backdrop"></div>
+
+  <div class="modal" id="checkoutModal">
+    <div class="modal-card"><button class="close" data-close="checkoutModal">×</button><p class="eyebrow">CHECKOUT</p><h2>Complete your order</h2><form id="checkoutForm"><div class="two-col"><label>Full name<input required name="name"></label><label>Phone<input required name="phone"></label></div><label>Email<input required type="email" name="email"></label><label>Delivery address<textarea required name="address" rows="3"></textarea></label><label>Payment method<select name="payment"><option>Bank transfer</option><option>Card / online payment (connect gateway)</option><option>Payment after sourcing confirmation</option></select></label><button class="btn btn-primary full">Place Order Request</button></form><p class="form-note">This demo records the order locally. Connect a backend/payment gateway before accepting live payments.</p></div>
+  </div>
+
+  <div class="toast" id="toast"></div>
+  <script src="script.js"></script>
+</body>
+</html>
